@@ -1,0 +1,89 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #e0e1dd;
+  color: #0d1b2a;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #1b263b;
+  color: white;
+  padding: 2rem 1rem;
+  text-align: center;
+  position: relative;
+}
+
+.logo {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+}
+
+nav {
+  margin-top: 1rem;
+}
+
+nav a {
+  color: #e0e1dd;
+  margin: 0 1rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  background: url('https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?auto=format&fit=crop&w=1600&q=80') center/cover no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  color: white;
+  text-align: center;
+}
+
+.hero .overlay {
+  background: rgba(13, 27, 42, 0.7);
+  padding: 3rem;
+  border-radius: 12px;
+}
+
+.quote {
+  background-color: #778da9;
+  color: white;
+  font-style: italic;
+  padding: 6rem 3rem;
+  text-align: center;
+  font-size: 1.2rem;
+  line-height: 1.8;
+}
+
+.stats {
+  background-color: #e0e1dd;
+  padding: 6rem 2rem;
+  text-align: center;
+}
+
+.stats ul {
+  list-style: none;
+  padding: 0;
+  line-height: 2;
+  font-size: 1.2rem;
+}
+
+.chart-section {
+  background-color: #f6f6f6;
+  text-align: center;
+  padding: 6rem 2rem;
+  min-height: 80vh;
+}
+
+.pie-chart {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 1rem auto;
+  background: conic-gradient(
+    #415a
